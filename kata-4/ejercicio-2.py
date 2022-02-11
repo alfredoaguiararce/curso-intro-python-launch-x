@@ -1,4 +1,4 @@
-def titulo(_name, _planet):
+def title(_name, _planet):
     # Creamos el titulo
     titulo = 'Talking about the gravity in the {luna} and the {tierra} : '.format(
         luna = _name,
@@ -29,7 +29,7 @@ if __name__ == '__main__':
     name = "Moon"
     gravity = 0.00162 # km/s
     planet = "Earth"
-    title_1 = titulo(name,
+    title_1 = title(name,
                       planet)
     template_1 = template(name,
                           gravity,
@@ -41,7 +41,7 @@ if __name__ == '__main__':
     planet = 'Marte '
     gravity  = 0.00143
     name = 'Ganímedes'
-    title_2 = titulo(name,
+    title_2 = title(name,
                       planet)
     template_2 = template(name,
                           gravity,
