@@ -18,4 +18,5 @@ if __name__ == "__main__":
     # Agrega el código para crear nuevas variables para la velocidad y el tamaño del asteroide
     velocidad_asteroide = 25
     tamano_asteroide = 40
-    comprobacion(velocidad_asteroide, tamano_asteroide)
+    comprobacion(velocidad_asteroide, 
+                 tamano_asteroide)

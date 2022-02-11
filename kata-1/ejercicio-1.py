@@ -1,7 +1,12 @@
 from datetime import date
 
-print("Today's date is: {}"
-      .format(
-          str(date.today())
-          )
-      )
+def print_today():
+    print("Today's date is: {}"
+        .format(
+            str(date.today())
+            )
+        )
+
+if __name__ == "__main__":
+    # Imprimimos la fecha del dia de hoy
+    print_today()
