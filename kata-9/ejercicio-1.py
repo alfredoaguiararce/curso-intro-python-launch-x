@@ -1,9 +1,8 @@
 # Función para leer 3 tanques de combustible y muestre el promedio
-
+# Actualiza la función
 def generate_report(main_tank, external_tank, hydrogen_tank):
-    total_average = (main_tank + external_tank + hydrogen_tank) / 3
     return f"""Fuel Report:
-    Total Average: {total_average}%
+    Total Average: {average([main_tank, external_tank, hydrogen_tank])}%
     Main tank: {main_tank}%
     External tank: {external_tank}%
     Hydrogen tank: {hydrogen_tank}% 
